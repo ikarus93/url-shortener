@@ -37,5 +37,5 @@ app.get("/r/:url", (req, res) => {
 })
 
 app.listen(process.env.PORT || 3000, () => {
-    console.log("Server running on port 8080");
+    console.log("Server running on port");
 })
